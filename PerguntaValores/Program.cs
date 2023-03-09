@@ -12,6 +12,11 @@ namespace PerguntaValores
             double AreaSup;
 
             double pi = Math.PI;
+
+            Console.WriteLine("Altura Cilindro: ");
+            a = double.Parse( Console.ReadLine());
+            Console.WriteLine("Raio Cilindro: ");
+            r = double.Parse(Console.ReadLine());
         }
     }
 }
