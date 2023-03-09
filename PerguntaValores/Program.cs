@@ -20,6 +20,9 @@ namespace PerguntaValores
 
             Volume = pi * Math.Pow(r,2) * a;  
             AreaSup = 2 * pi * r * (r + a);
+
+            Console.WriteLine($"Volume do seu cilindro é igual a: {Volume}");
+            Console.WriteLine($"A Área de superfície do seu cilindro é igual a: {AreaSup}");
         }
     }
 }
