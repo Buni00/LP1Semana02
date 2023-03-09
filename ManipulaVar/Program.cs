@@ -11,10 +11,10 @@ namespace ManipulaVar
             {
                 int x = Convert.ToInt32(args[i]);
                 int a = 1 + x++;
-                //int b = ; 
+                int b = --x - 1; 
                 
                 Console.WriteLine(a);
-                //Console.WriteLine(b);
+                Console.WriteLine(b);
             }
             
         }
