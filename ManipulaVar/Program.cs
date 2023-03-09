@@ -6,10 +6,18 @@ namespace ManipulaVar
     {
         static void Main(string[] args)
         {
-            int x = Convert.ToInt32(args.Length);
+
+            for ( int i = 0; i < args.Length; i++)
+            {
+                int x = Convert.ToInt32(args[i]);
+                int a = 1 + x++;
+                //int b = ; 
+                
+                Console.WriteLine(a);
+                //Console.WriteLine(b);
+            }
             
-            Console.WriteLine(x++);
-            Console.WriteLine(--x);
         }
     }
 }
+
