@@ -10,6 +10,8 @@ namespace PerguntaValores
             double r; 
             double Volume;
             double AreaSup;
+
+            double pi = Math.PI;
         }
     }
 }
