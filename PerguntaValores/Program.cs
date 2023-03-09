@@ -17,6 +17,9 @@ namespace PerguntaValores
             a = double.Parse( Console.ReadLine());
             Console.WriteLine("Raio Cilindro: ");
             r = double.Parse(Console.ReadLine());
+
+            Volume = pi * Math.Pow(r,2) * a;  
+            AreaSup = 2 * pi * r * (r + a);
         }
     }
 }
