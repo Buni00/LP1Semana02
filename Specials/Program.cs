@@ -15,7 +15,7 @@ namespace Specials
             Console.WriteLine(decimal.MaxValue);
             Console.WriteLine(decimal.MinValue);
 
-            Console.WriteLine(double.MaxValue);
+            Console.WriteLine(2* double.MaxValue);
             Console.WriteLine(double.MinValue);
 
             Console.WriteLine(float.MaxValue);
