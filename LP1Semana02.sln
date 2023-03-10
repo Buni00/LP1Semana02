@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTGrandfather", "ChatG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triangle.csproj", "{ED9108C7-E2D2-4945-9518-908FC901FF7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossSquare", "CrossSquare\CrossSquare.csproj", "{4E80C4A6-1B2D-4B9A-852A-EA41954343E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,17 @@ Global
 		{ED9108C7-E2D2-4945-9518-908FC901FF7F}.Release|x64.Build.0 = Release|Any CPU
 		{ED9108C7-E2D2-4945-9518-908FC901FF7F}.Release|x86.ActiveCfg = Release|Any CPU
 		{ED9108C7-E2D2-4945-9518-908FC901FF7F}.Release|x86.Build.0 = Release|Any CPU
+		{4E80C4A6-1B2D-4B9A-852A-EA41954343E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E80C4A6-1B2D-4B9A-852A-EA41954343E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E80C4A6-1B2D-4B9A-852A-EA41954343E8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4E80C4A6-1B2D-4B9A-852A-EA41954343E8}.Debug|x64.Build.0 = Debug|Any CPU
+		{4E80C4A6-1B2D-4B9A-852A-EA41954343E8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4E80C4A6-1B2D-4B9A-852A-EA41954343E8}.Debug|x86.Build.0 = Debug|Any CPU
+		{4E80C4A6-1B2D-4B9A-852A-EA41954343E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E80C4A6-1B2D-4B9A-852A-EA41954343E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E80C4A6-1B2D-4B9A-852A-EA41954343E8}.Release|x64.ActiveCfg = Release|Any CPU
+		{4E80C4A6-1B2D-4B9A-852A-EA41954343E8}.Release|x64.Build.0 = Release|Any CPU
+		{4E80C4A6-1B2D-4B9A-852A-EA41954343E8}.Release|x86.ActiveCfg = Release|Any CPU
+		{4E80C4A6-1B2D-4B9A-852A-EA41954343E8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
