@@ -34,7 +34,8 @@ namespace Specials
             Console.WriteLine(ulong.MinValue);
 
             Console.WriteLine(short.MaxValue);
-            Console.WriteLine(short.MinValue);
+            int i= short.MaxValue;
+            Console.WriteLine((short) (i+1));
 
             Console.WriteLine(ushort.MaxValue);
             Console.WriteLine(ushort.MinValue);
