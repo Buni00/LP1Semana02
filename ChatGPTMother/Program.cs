@@ -17,16 +17,16 @@ namespace ChatGPTMother
                 string answer = Console.ReadLine();
 
                 if (answer == question1)
-                    Console.WriteLine("I'm ChatGPTMother \n");
+                    Console.WriteLine("I'm ChatGPTMother! \n");
 
                 else if (answer == question2)
-                    Console.WriteLine("2 \n");
+                    Console.WriteLine("2! \n");
 
                 else if (answer == question3)
-                    Console.WriteLine("4 \n");    
+                    Console.WriteLine("4! \n");    
 
                 else if (answer == question4)
-                    Console.WriteLine("3 \n");    
+                    Console.WriteLine("3! \n");    
                 
                 else
                     Console.WriteLine("Dont know the answer \n");
