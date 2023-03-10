@@ -41,6 +41,14 @@ namespace Specials
 
             Console.WriteLine(short.MaxValue);
             Console.WriteLine(short.MinValue);
+
+            Console.WriteLine(double.PositiveInfinity);
+            Console.WriteLine(double.NegativeInfinity);
+
+            Console.WriteLine(float.NaN);
+
+            
+
             
         }
     }
