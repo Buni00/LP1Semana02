@@ -10,6 +10,7 @@ namespace ChatGPTMother
             string question2 = "1+1?";
             string question3 = "2+2?";
             string question4 = "2+1?";
+            string exit = "EXIT";
 
             while(true)
             {
@@ -26,7 +27,9 @@ namespace ChatGPTMother
                     Console.WriteLine("4! \n");    
 
                 else if (answer == question4)
-                    Console.WriteLine("3! \n");    
+                    Console.WriteLine("3! \n");
+                else if (answer == exit)
+                    break;    
                 
                 else
                     Console.WriteLine("Dont know the answer \n");
